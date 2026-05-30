@@ -89,9 +89,9 @@
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.linkedEditingBackground": "#00F5FF33",
 		"editor.rangeHighlightBackground": "#F5F5F53d",
-		"editor.selectionBackground": "#00F5FF33",
+		"editor.selectionBackground": "#FF006E40",
 		"editor.selectionForeground": "#F5F5F5",
-		"editor.selectionHighlightBackground": "#00F5FF1A",
+		"editor.selectionHighlightBackground": "#FF006E26",
 		"editor.selectionHighlightBorder": "#F5F5F54d",
 		"editor.wordHighlightBackground": "#00F5FF14",
 		"editor.wordHighlightBorder": "#F5F5F55c",
@@ -418,7 +418,7 @@
 			"foreground": "#7DF7FF"
 		},
 		"variable": {
-			"foreground": "#FF5C9E"
+			"foreground": "#F5F5F5"
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#FFB400"
@@ -1233,6 +1233,52 @@
 			],
 			"settings": {
 				"foreground": "#00F5FF"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage",
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#00FF85"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#00F5FF"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#FF5400"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#F5F5F5"
 			}
 		}
 	]
