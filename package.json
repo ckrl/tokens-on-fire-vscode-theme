@@ -1,0 +1,34 @@
+{
+  "name": "tokens-on-fire-vscode-theme",
+  "displayName": "Tokens on Fire Theme",
+  "description": "Tokens on Fire theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "ckrl",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckrl/tokens-on-fire-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "tokensonfire",
+    "dark",
+    "constantinkrylov"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokens on Fire Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokens on Fire Dark-color-theme.json"
+      }
+    ]
+  }
+}
